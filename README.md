@@ -9,12 +9,18 @@ Antes de comenzar a utilizar este proyecto, asegúrate de tener instalada la ver
 
 Para ejecutar el proyecto, sigue los siguientes pasos:
 
-1. Clona este repositorio en tu computadora: git clone https://github.com/tu-usuario/webdriverIoChallenges
-2. Entra al directorio del proyecto: cd webdriverIoChallenges
+1. Clona este repositorio en tu computadora: 
+```bash git clone https://github.com/tu-usuario/webdriverIoChallenges
+
+2. Entra al directorio del proyecto: 
+```bash cd webdriverIoChallenges
+
 3. Instala las dependencias necesarias:
-npm install
+```bash npm install
+
 4. Corre los tests de WebDriverIO y Cucumber:
-npm run wdio
+```bash npm run wdio
+
 . ¡Listo! Ahora puedes ver los resultados de los tests en tu terminal.
 
 ## Estructura del proyecto
