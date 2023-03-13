@@ -1,0 +1,29 @@
+{
+  "name": "webdriveriochallenge",
+  "version": "1.0.0",
+  "description": "Challege para automatizar casos de prueba con cucumber y WebdriverIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [
+    "Javascript",
+    "cucumber"
+  ],
+  "author": "Fabricio Chollett",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.5.0",
+    "@wdio/cli": "^8.5.9",
+    "@wdio/cucumber-framework": "^8.5.6",
+    "@wdio/local-runner": "^8.5.9",
+    "@wdio/spec-reporter": "^8.4.0",
+    "chromedriver": "^111.0.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^9.0.0",
+    "allure-commandline": "^2.21.0"
+  }
+}
